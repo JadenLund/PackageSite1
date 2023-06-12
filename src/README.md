@@ -13,6 +13,8 @@
 ### NavBar
  - Navigation at top
 ### Carousel
+ - Slides
+### Carousel Container
  - Images at top that display products or deals
  ### About
  - Who we are header
