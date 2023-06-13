@@ -1,12 +1,19 @@
 import Carousel from "./Carousel";
 import { information } from "./Information";
 export default function TestContainer() {
-  // const [display, products, location] = information;
+  const [options, display, products, locations] = information;
   return (
     <div>
-      {console.log(information)}
-      <div className="grid grid-cols-2 gap-4">
 
+      {/* {console.log("meow", information.options)} */}
+      <div className="grid grid-cols-2 gap-4">
+        {/* {console.log(information.options)} */}
+        {display.map((info) => (
+         <div>
+            {/* {console.log(info)} */}
+
+         </div>
+        ))}
       </div>
     </div>
   );

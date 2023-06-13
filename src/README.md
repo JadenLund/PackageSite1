@@ -10,6 +10,12 @@
  - # Contact | Map
 
 
+Basically there is the carousel container that sets up the slides and display of the carousel.
+It is then called by a differnet container, and displayed with props.
+It will be called two times, with display and brand
+
+Information.jsx will also be used to display locations
+
 ### NavBar
  - Navigation at top
 ### Carousel

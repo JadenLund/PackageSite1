@@ -1,9 +1,9 @@
 
-import Slide1 from "../assets/images/Slide1.png";
-import Slide2 from "../assets/images/Slide.2png";
-import Slide3 from "../assets/images/Slide.p3ng";
+import Slide1 from "../images/Slide1.png";
+import Slide2 from "../images/Slide2.png";
+import Slide3 from "../images/Slide3.png";
 export const information = {
-  paragraphs: [
+  options: [
     {
         display: [
             {
@@ -20,7 +20,8 @@ export const information = {
             },
       ],
     },
-    { products: [
+    {
+         products: [
         {
             title: "Slide1",
             image: Slide1,
@@ -38,7 +39,8 @@ export const information = {
         },
   ],
     },
-    { locations: [
+    {
+        locations: [
         {
             title: "Location 1",
             address: "Address 1",

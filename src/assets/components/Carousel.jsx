@@ -18,33 +18,33 @@ export default function Carousel({
     return () => clearInterval(slideInterval);
   }, []);
   return (
-    <div class="overflow-hidden relative rounded-t-lg">
+    <div className="overflow-hidden relative rounded-t-lg">
       <div
-        class="flex transition-transform ease-out duration-500"
+        className="flex transition-transform ease-out duration-500"
         style={{ transform: `translateX(-${curr * 100}%)` }}
       >
         {slides}
       </div>
-      <div class="absolute inset-0 flex items-center justify-between p-4">
+      <div className="absolute inset-0 flex items-center justify-between p-4">
         <button
           onClick={prev}
-          class="p-1 rounded-full shadow bg-white/80 text-gray-800 hover:bg-white"
+          className="p-1 rounded-full shadow bg-white/80 text-gray-800 hover:bg-white"
         >
           {"<"}
         </button>
         <button
           onClick={next}
-          class="p-1 rounded-full shadow bg-white/80 text-gray-800 hover:bg-white"
+          className="p-1 rounded-full shadow bg-white/80 text-gray-800 hover:bg-white"
         >
           {">"}
         </button>
       </div>
 
-      <div class="absolute bottom-4 right-0 left-0">
-        <div class="flex items-center justify-center gap-2">
+      <div className="absolute bottom-4 right-0 left-0">
+        <div className="flex items-center justify-center gap-2">
           {slides.map((_, i) => (
             <div
-              class={`
+              className={`
               transition-all w-3 h-3 bg-white rounded-full
               ${curr === i ? "p-2" : "bg-opacity-50"}
             `}
