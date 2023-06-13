@@ -2,6 +2,7 @@ import React from "react";
 import { Element, Events, scroller } from "react-scroll";
 import NavBar from "./assets/components/NavBar";
 import TestContainer from "./assets/components/CarouselContainer";
+import About from "./assets/components/About";
 
 export default class Section extends React.Component {
   constructor(props) {
@@ -50,7 +51,7 @@ export default class Section extends React.Component {
     return (
       <div>
         <NavBar />
-        <TestContainer/>
+        <About/>
       </div>
     );
   }
