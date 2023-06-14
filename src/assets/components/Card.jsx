@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-export default function Carousel({
+export default function Card({
   children: slides,
   autoSlide = false,
   autoSlideInterval = 3000,

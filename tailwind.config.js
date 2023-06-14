@@ -11,17 +11,28 @@ module.exports = {
       perspective: {
         '1000': '1000px',
       },
+
       animation: {
-        fadeIn: "fadeIn 2s ease-in forwards"
-      },
-      transitionProperty: {
-        'spacing': 'margin, padding',
+        fadeIn: "fadeIn 2s ease-in forwards",
+        marquee: 'marquee 25s linear infinite',
+        marquee2: 'marquee2 25s linear infinite',
       },
       keyframes: {
+        marquee: {
+          '0%': { transform: 'translateX(0%)' },
+          '100%': { transform: 'translateX(-100%)' },
+        },
         fadeIn: {
           "0%": { opacity: 0 },
           "100%": { opacity: 1 }
-        }
+        },
+        marquee2: {
+          '0%': { transform: 'translateX(100%)' },
+          '100%': { transform: 'translateX(0%)' },
+        },
+      },
+      transitionProperty: {
+        'spacing': 'margin, padding',
       },
       boxShadow: {
         'custom': '0 4px 8px 0 rgba(0, 0, 0, 0.2)',
