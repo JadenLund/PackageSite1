@@ -1,3 +1,1 @@
-export default function Display(){
-
-}
+export default function Display() {}

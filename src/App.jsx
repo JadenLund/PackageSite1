@@ -3,7 +3,7 @@ import { Element, Events, scroller } from "react-scroll";
 import NavBar from "./assets/components/NavBar";
 import TestContainer from "./assets/components/CarouselContainer";
 import About from "./assets/components/About";
-import Contact from "./assets/components/Contact";
+import FindUs from "./assets/components/FindUs";
 
 export default class Section extends React.Component {
   constructor(props) {
@@ -53,7 +53,7 @@ export default class Section extends React.Component {
       <div>
         <NavBar />
         <About/>
-        <Contact/>
+        <FindUs/>
       </div>
     );
   }
