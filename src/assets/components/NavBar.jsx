@@ -1,4 +1,5 @@
 import { Link } from "react-scroll";
+import twitter from "../images/twitter.png";
 export default function NavBar() {
   const durationFn = function (deltaTop) {
     return deltaTop;
@@ -10,7 +11,7 @@ export default function NavBar() {
           className="h-8 w-8 "
           src="https://www.freeiconspng.com/thumbs/letter-j-icon-png/letter-j-icon-png-26.png"
         />
-        <span>aden Lund</span>
+        <span>BRAND</span>
       </a>
       <div className="flex sm:justify-center space-x-8 ">
         {[
@@ -27,6 +28,20 @@ export default function NavBar() {
             {title}
           </Link>
         ))}
+      </div>
+      <div className="flex space-x-8 justify-end">
+        <a>
+          <img className="h-w right-0" src={twitter} />
+        </a>
+        <a>
+          <img className="h-w right-0" src={twitter} />
+        </a>
+        <a>
+          <img className="h-w right-0" src={twitter} />
+        </a>
+        <a>
+          <img className="h-w right-0" src={twitter} />
+        </a>
       </div>
     </nav>
   );
