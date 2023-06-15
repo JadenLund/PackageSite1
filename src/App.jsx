@@ -10,11 +10,13 @@ export default function App() {
   return (
     <div>
       <NavBar />
-      <Products />
-      <About />
-      <Products />
-      <FindUs />
-      <BNavBar />
+      <div className="mx-c font-lilita text-center">
+        <Products />
+        <About />
+        <Products />
+        <FindUs />
+        <BNavBar />
+      </div>
     </div>
   );
 }

@@ -11,7 +11,6 @@ module.exports = {
       perspective: {
         '1000': '1000px',
       },
-
       animation: {
         fadeIn: "fadeIn 2s ease-in forwards",
         marquee: 'marquee 25s linear infinite',
@@ -48,23 +47,25 @@ module.exports = {
         'accent': '#320e3b',
       },
       fontFamily: {
-        'roboto': ['roboto', 'sans-serif']
+        'lilita': ['Lilita One', 'cursive'],
       },
       spacing: {
-        "w": "100%",
-        "x": "10%",
-        "y": "5%",
-        "Z": "1%",
-        "a": "5rem",
-        "b": "300px",
-        "c": "200px",
-        "d": "120px"
+        "a": "100%",
+        "b": "50%",
+        "c": "25%",
+        "d": "15%",
+        "e": "10%",
+        "z": "100vh",
+        "y": "50vh",
+        "x": "25vh",
+        "w": "10vh",
       },
       fontSize: {
         sm: ['14px', '20px'],
         base: ['16px', '24px'],
         lg: ['20px', '28px'],
         xl: ['24px', '32px'],
+        xxl: ['40px', '48px']
       }
     },
   },
