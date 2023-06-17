@@ -17,9 +17,9 @@ export default function Contact() {
               className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
               id="grid-state"
             >
-              <option>New Mexico</option>
-              <option>Missouri</option>
-              <option>Texas</option>
+              <option>Loaction</option>
+              <option>Loaction</option>
+              <option>Loaction</option>
             </select>
           </div>
           <input
