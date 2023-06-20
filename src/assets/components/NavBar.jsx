@@ -1,5 +1,6 @@
 import { Link } from "react-scroll";
 import twitter from "../images/twitter.png";
+import instagram from "../images/instagram.png";
 export default function NavBar() {
   const durationFn = function (deltaTop) {
     return deltaTop;
@@ -34,7 +35,7 @@ export default function NavBar() {
           <img className="h-w right-0" src={twitter} />
         </a>
         <a>
-          <img className="h-w right-0" src={twitter} />
+          <img className="h-w right-0" src={instagram} />
         </a>
         <a>
           <img className="h-w right-0" src={twitter} />
