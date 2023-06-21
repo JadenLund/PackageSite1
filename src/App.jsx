@@ -9,8 +9,7 @@ import Products from "./assets/components/Products";
 export default function App() {
   return (
     <div>
-      <NavBar />
-      <div className="mx-c font-lilita text-center">
+      <div className="font-lilita text-center">
         <Products />
         <About />
         <Products />

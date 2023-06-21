@@ -7,7 +7,8 @@ export const information = {
       display: [
         {
           title: "Slide1",
-          image: Slide1,
+          image:
+            "https://qph.cf2.quoracdn.net/main-qimg-8af1a3db4d4022fb24df86e35c5bcaeb",
         },
         {
           title: "Slide2",

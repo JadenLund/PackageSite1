@@ -5,7 +5,6 @@ import { information } from "./Information";
 export default function Products() {
   return (
     <div>
-      {/* {console.log(information.options[0])} */}
       {information.options.map((info) => (
         <div>
           {info.display == undefined ? (
