@@ -10,12 +10,19 @@ export default function App() {
   return (
     <div>
       <div className="font-lilita text-center">
-        <Element>
-          <Products className="home" id="home" />
+        <Element className="home" id="home">
+          <Products />
         </Element>
-        <About className="about" id="about" />
-        <Products className="products" id="products" />
-        <FindUs className="find" id="find" />
+        <Element className="about" id="about">
+          <About />
+        </Element>
+        <Element className="products" id="products">
+          <Products />
+        </Element>
+        <Element className="find" id="find">
+          <FindUs />
+        </Element>
+
         <BNavBar />
       </div>
     </div>
