@@ -23,7 +23,8 @@ export default function NavBar() {
         ].map(([title, url]) => (
           <Link
             to={url}
-            duration={durationFn}
+            spy={true}
+            smooth={true}
             className="p-3 focus:bg-clicked-green hover:bg-selected-green no-underline text-black"
           >
             {title}
@@ -31,18 +32,11 @@ export default function NavBar() {
         ))}
       </div>
       <div className="flex space-x-8 justify-end">
-        <a>
-          <img className="h-w right-0" src={twitter} />
-        </a>
-        <a>
-          <img className="h-w right-0" src={instagram} />
-        </a>
-        <a>
-          <img className="h-w right-0" src={twitter} />
-        </a>
-        <a>
-          <img className="h-w right-0" src={twitter} />
-        </a>
+        {[twitter, twitter, instagram, instagram].map((icon) => (
+          <a>
+            <img className="h-w right-0" src={icon} />
+          </a>
+        ))}
       </div>
     </nav>
   );
