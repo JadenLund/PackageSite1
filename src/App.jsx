@@ -17,10 +17,10 @@ export default function App() {
         <Element className="about" id="about">
           <About />
         </Element>
-        <Element className="products" id="products">
+        <Element className="products h-screen" id="products">
           <Products />
         </Element>
-        <Element className="find" id="find">
+        <Element className="find h-screen" id="find">
           <FindUs />
         </Element>
 

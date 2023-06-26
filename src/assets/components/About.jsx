@@ -3,7 +3,7 @@ import FadeRight from "./graphics/FadeRight";
 import GradiantAppear from "./graphics/GradiantAppear";
 export default function About() {
   return (
-    <div>
+    <div className="h-screen">
       <FadeRight>
         <h1 className="text-xxl">WHO WE ARE</h1>
       </FadeRight>
