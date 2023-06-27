@@ -7,7 +7,7 @@ import NavBar from "./assets/components/NavBar.jsx";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <NavBar />
-    <div class="grid grid-cols-5">
+    <div class="grid grid-cols-5 sticky ">
       <div>01</div>
       <div className="col-span-3">
         <App />

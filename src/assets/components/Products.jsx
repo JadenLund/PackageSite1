@@ -4,7 +4,7 @@ import { information } from "./Information";
 
 export default function Products() {
   return (
-    <div>
+    <div className="h-screen">
       {information.options.map((info) => (
         <div>
           {info.display == undefined ? (
