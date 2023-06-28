@@ -25,6 +25,7 @@ export default function NavBar() {
             to={url}
             spy={true}
             smooth={true}
+            offset={-110}
             className="p-3 focus:bg-clicked-green hover:bg-selected-green no-underline text-black"
           >
             {title}
