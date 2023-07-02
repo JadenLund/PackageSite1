@@ -15,6 +15,7 @@ export default function Products() {
               <Card>
                 {info.display.map((slides) => (
                   <img className="h-z" src={slides.image} />
+                  // this is where the image height is decided for the slide shows
                 ))}
               </Card>
             </div>
