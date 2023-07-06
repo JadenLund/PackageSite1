@@ -59,9 +59,9 @@ export function Stores() {
   );
 }
 
-{
-  <MyMapComponent isMarkerShown />; // Map with a Marker
-}
-{
-  <MyMapComponent isMarkerShown={false} />; // Just only Map
-}
+// {
+//   <MyMapComponent isMarkerShown />; // Map with a Marker
+// }
+// {
+//   <MyMapComponent isMarkerShown={false} />; // Just only Map
+// }

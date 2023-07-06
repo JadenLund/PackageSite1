@@ -12,7 +12,7 @@ export default function Contact() {
               placeholder={title}
             />
           ))}
-          <div class="relative w-full md:w-1/3">
+          <div className="relative w-full md:w-1/3">
             <select
               className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
               id="grid-state"

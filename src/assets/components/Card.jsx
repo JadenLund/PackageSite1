@@ -19,7 +19,7 @@ export default function Card({
   }, []);
 
   return (
-    <div className="overflow-hidden relative rounded-t-lg">
+    <div className="max-w-lg overflow-hidden relative rounded-t-lg">
       <div
         className="flex transition-transform ease-out duration-500"
         style={{ transform: `translateX(-${curr * 100}%)` }}

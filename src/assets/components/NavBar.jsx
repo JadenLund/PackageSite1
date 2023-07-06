@@ -16,13 +16,13 @@ export default function NavBar() {
       </a>
       <div className="flex sm:justify-center space-x-8 ">
         {[
-          ["Home", ""],
-          ["About", ""],
-          ["Products", ""],
-          ["Find Us", ""],
+          ["Home", "home"],
+          ["About", "about"],
+          ["Products", "products"],
+          ["Find Us", "find"],
         ].map(([title, url]) => (
           <Link
-            to={title}
+            to={url}
             spy={true}
             smooth={true}
             offset={-110}

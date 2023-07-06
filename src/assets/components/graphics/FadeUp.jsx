@@ -8,7 +8,7 @@ export default function FadeUp({ children }) {
   return (
     <section ref={ref}>
       <span
-        class="block text-lg"
+        className="block text-lg"
         style={{
           transform: isInView ? null : "translateY(200px)",
           opacity: isInView ? 1 : 0,

@@ -6,7 +6,7 @@ import FadeUp from "./graphics/FadeUp";
 export default function FindUs() {
   return (
     <div className="flex justify-center h-screen">
-      <div class="grid grid-cols-2 ">
+      <div className="grid grid-cols-2 ">
         <FadeUp>
           <Contact />
         </FadeUp>
