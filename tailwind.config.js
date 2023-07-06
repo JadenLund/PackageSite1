@@ -45,6 +45,7 @@ module.exports = {
         'tertiary': '#4f707',
         'extra': '#2f4858',
         'accent': '#320e3b',
+        'darkstone': '1c1c1c'
       },
       fontFamily: {
         'lilita': ['Lilita One', 'cursive'],
@@ -59,6 +60,10 @@ module.exports = {
         "y": "50vh",
         "x": "25vh",
         "w": "10vh",
+        "q": "100rem",
+        "r": "50rem",
+        "s": "35rem",
+        "t": "2.5rem",
       },
       fontSize: {
         sm: ['14px', '20px'],

@@ -4,7 +4,7 @@ import { information } from "./Information";
 
 export default function Products() {
   return (
-    <div className="justify-center">
+    <div>
       {information.options.map((info) => (
         <div>
           {info.display == undefined ? (
@@ -12,7 +12,7 @@ export default function Products() {
           ) : (
             <Card>
               {info.display.map((slides) => (
-                <img className="h-96" src={slides.image} />
+                <img className="h-s" src={slides.image} />
               ))}
             </Card>
           )}

@@ -25,7 +25,7 @@ export default function NavBar() {
             to={url}
             spy={true}
             smooth={true}
-            offset={-110}
+            offset={-60}
             className="p-3 focus:bg-clicked-green hover:bg-selected-green no-underline text-black"
           >
             {title}
@@ -35,7 +35,7 @@ export default function NavBar() {
       <div className="flex space-x-8 justify-end">
         {[twitter, twitter, instagram, instagram].map((icon) => (
           <a>
-            <img className="h-w right-0" src={icon} />
+            <img className="h-t right-0" src={icon} />
           </a>
         ))}
       </div>
