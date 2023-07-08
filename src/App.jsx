@@ -3,13 +3,12 @@ import { Element, Events, scroller } from "react-scroll";
 import About from "./assets/components/About";
 import FindUs from "./assets/components/FindUs";
 import BNavBar from "./assets/components/BNavBar";
-import Products from "./assets/components/Products";
 import Home from "./assets/components/Home";
 import ProductShowCase from "./assets/components/ProductShowCase";
 export default function App() {
   return (
     <div>
-      <div className="font-lilita text-center">
+      <div className=" text-center text-gray-300">
         <Element className="home" id="home">
           <Home />
         </Element>

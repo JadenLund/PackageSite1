@@ -1,12 +1,12 @@
-import FadeRight from "./graphics/FadeRight";
+import FadeAppear from "./graphics/FadeAppear";
 import Products from "./Products";
 
 export default function ProductShowCase() {
   return (
     <div>
-      <FadeRight>
+      <FadeAppear>
         <h1 className="text-xxl">Products</h1>
-      </FadeRight>
+      </FadeAppear>
       <Products />
     </div>
   );

@@ -6,8 +6,11 @@ export default function NavBar() {
     return deltaTop;
   };
   return (
-    <nav className="sticky z-10 top-0 font-semibold text-xl bg-nature-green grid grid-cols-3 items-center">
-      <a href="home" className="flex no-underline text-black">
+    <nav className="sticky z-10 top-0 font-semibold text-xl bg-slate-950 grid grid-cols-3 items-center">
+      <a
+        href="home"
+        className="flex no-underline text-gray-400 hover:text-gold"
+      >
         <img
           className="h-8 w-8 "
           src="https://www.freeiconspng.com/thumbs/letter-j-icon-png/letter-j-icon-png-26.png"
@@ -26,7 +29,7 @@ export default function NavBar() {
             spy={true}
             smooth={true}
             offset={-60}
-            className="p-3 focus:bg-clicked-green hover:bg-selected-green no-underline text-black"
+            className="p-2 hover:text-gold no-underline text-gray-400"
           >
             {title}
           </Link>

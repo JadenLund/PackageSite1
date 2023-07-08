@@ -1,12 +1,12 @@
 import Products from "./Products";
-import FadeRight from "./graphics/FadeRight";
+import FadeAppear from "./graphics/FadeAppear";
 
 export default function Home() {
   return (
     <div className="h-screen">
-      <FadeRight>
+      <FadeAppear>
         <h1 className="text-xxl py-1.5">Brand Name</h1>
-      </FadeRight>
+      </FadeAppear>
 
       <Products />
     </div>

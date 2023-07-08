@@ -1,10 +1,11 @@
 //Container for Card
 import Card from "./Card";
 import { information } from "./Information";
+import FadeAppear from "./graphics/FadeAppear";
 
 export default function Products() {
   return (
-    <div>
+    <FadeAppear>
       {information.options.map((info) => (
         <div>
           {info.display == undefined ? (
@@ -18,6 +19,6 @@ export default function Products() {
           )}
         </div>
       ))}
-    </div>
+    </FadeAppear>
   );
 }

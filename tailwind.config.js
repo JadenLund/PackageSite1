@@ -37,15 +37,12 @@ module.exports = {
         'custom': '0 4px 8px 0 rgba(0, 0, 0, 0.2)',
       },
       colors: {
-        'nature-green': '#89B098',
-        'selected-green': '#72A184',
-        'clicked-green': '#4A6956',
+        'gold': '#E8A733',
         'primary': "#89b098",
         'secondary': '#7ca490',
         'tertiary': '#4f707',
         'extra': '#2f4858',
         'accent': '#320e3b',
-        'darkstone': '1c1c1c'
       },
       fontFamily: {
         'lilita': ['Lilita One', 'cursive'],
