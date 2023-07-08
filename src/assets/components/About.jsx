@@ -20,7 +20,7 @@ export default function About() {
       <FadeAppear>
         <img
           src="https://media.gettyimages.com/id/1449651807/photo/many-different-flavours-of-e-liquid-vapes-in-a-vape-shop.jpg?s=612x612&w=gi&k=20&c=aHlAJYm63v5gE-ejoFtuuBuhc2Lq7L6Ujt9fuU0myoI="
-          className="w-a h-y mb-1.5"
+          className="rounded-3xl w-a h-y mb-1.5"
         />
         <Brands />
       </FadeAppear>
